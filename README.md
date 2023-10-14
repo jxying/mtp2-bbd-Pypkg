@@ -1,5 +1,5 @@
 # mtp2-bbd-Pypkg 
-Python implementation of fast projected Newton-like (FPN) method [1] for learning large-scale MTP2 Gaussian graphical models and its accleration by introducing bridge-block decomposition [2]. The Matlab implementation is available [here](https://github.com/jxying/mtp2-bbd). The problem can be formulated as
+Python implementation of fast projected Newton-like (FPN) method [1] with bridge-block decomposition [2] for learning large-scale MTP2 Gaussian graphical models. The Matlab implementation is available [here](https://github.com/jxying/mtp2-bbd). The problem can be formulated as
 
 $$
 \underset{\boldsymbol{\Theta}}{\mathsf{minimize}}  -\log\det\left(\boldsymbol{\Theta}\right)+\left\langle \boldsymbol{\Theta},\mathbf{S}\right\rangle +\sum_{i\neq j}\Lambda_{ij}\left|\Theta_{ij}\right|, 
@@ -21,7 +21,7 @@ The codes contain following procedures.
 
 (4) Obtaining optimal solution using methods in [2].
 
-Please skip first step if you have data matrix or sample covariance matrix provided. The methods could significantly accelerate the convergence of existing algroithms and reduce memory cost when the thresholded graphs are sparse. 
+The bridge-block decomposition is designed to reduce the computational and memory costs of existing algorithms like FPN, especially in cases involving large-scale data. You may consider using the FPN solver only when there are no significant computational and memory demands.
 
 ## Simple Usage
 
