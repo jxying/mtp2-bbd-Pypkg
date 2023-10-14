@@ -25,14 +25,14 @@ Please skip first step if you have data matrix or sample covariance matrix provi
 
 ## Simple Usage
 
-Use fast projected Newton-like method:
+Apply fast projected Newton-like method:
 
 ```
 opts_FPN = {'max_iter': 1e4, 'tol': 1e-10}
 Theta = solver_fpn(S, Lambda, opts_FPN)
 ```
 
-Use bridge-block decomposition approach:
+Conduct bridge-block decomposition:
 
 ```
 Theta = solver_bbd(S, Lambda)
