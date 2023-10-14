@@ -1,5 +1,5 @@
 # mtp2-bbd-Pypkg 
-Python implementation of fast projected Newton-like (FPN) method [1] for learning large-scale sparse MTP2 Gaussian graphical models and its accleration bybridge-block decomposition [2]. The problem can be formulated as
+Python implementation of fast projected Newton-like (FPN) method [1] for learning large-scale sparse MTP2 Gaussian graphical models and its accleration by bridge-block decomposition [2]. The problem can be formulated as
 
 $$
 \mathsf{minimize}  -\log\det\left(\boldsymbol{\Theta}\right)+\left\langle \boldsymbol{\Theta},\mathbf{S}\right\rangle +\sum_{i\neq j}\Lambda_{ij}\left|\Theta_{ij}\right|, 
