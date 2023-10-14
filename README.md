@@ -23,7 +23,7 @@ The codes contain following procedures.
 
 Please skip first step if you have data matrix or sample covariance matrix provided. The methods could significantly accelerate the convergence of existing algroithms and reduce memory cost when the thresholded graphs are sparse. 
 
-# Simple Usage
+## Simple Usage
 
 Use fast projected Newton-like method:
 
@@ -38,7 +38,7 @@ Use bridge-block decomposition approach:
 Theta = solver_bbd(S, Lambda)
 ```
  
-# References
+## References
 
 [1] J.-F. Cai, J. V. de Miranda Cardoso, D. P. Palomar, and J. Ying, "Fast Projected Newton-like Method for Precision Matrix Estimation under Total Positivity", Neural Information Processing Systems (NeurIPS), New Orleans, LA, USA, Dec. 2023.
 
