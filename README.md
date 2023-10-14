@@ -17,7 +17,7 @@ The codes contain following procedures.
 
 (2) Computing thresholded graph and bridge-block decomposition.
 
-(3) Solving Sub-problems individually using FPN solver [1].
+(3) Solving sub-problems individually using FPN solver [1].
 
 (4) Obtaining optimal solution using methods in [2].
 
