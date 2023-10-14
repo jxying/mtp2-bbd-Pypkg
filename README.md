@@ -1,5 +1,5 @@
 # mtp2-bbd-Pypkg 
-Python implementation of fast projected Newton-like (FPN) method [1] for learning large-scale sparse MTP2 Gaussian graphical models and its accleration by bridge-block decomposition [2]. The problem can be formulated as
+Python implementation of fast projected Newton-like (FPN) method [1] for learning large-scale MTP2 Gaussian graphical models and its accleration by bridge-block decomposition [2]. The problem can be formulated as
 
 $$
 \mathsf{minimize}  -\log\det\left(\boldsymbol{\Theta}\right)+\left\langle \boldsymbol{\Theta},\mathbf{S}\right\rangle +\sum_{i\neq j}\Lambda_{ij}\left|\Theta_{ij}\right|, 
@@ -40,9 +40,9 @@ Theta = solver_bbd(S, Lambda)
  
 # References
 
-[1] J.-F. Cai, J. V. de Miranda Cardoso, D. P. Palomar, and J. Ying, "Fast Projected Newton-like Method for Precision Matrix Estimation under Total Positivity", accepted in Neural Information Processing Systems (NeurIPS), New Orleans, LA, USA, Dec. 2023.
+[1] J.-F. Cai, J. V. de Miranda Cardoso, D. P. Palomar, and J. Ying, "Fast Projected Newton-like Method for Precision Matrix Estimation under Total Positivity", Neural Information Processing Systems (NeurIPS), New Orleans, LA, USA, Dec. 2023.
 
-[2] Xiwen Wang, Jiaxi Ying, and Daniel P. Palomar, 'Learning Large-Scale MTP2 Gaussian Graphical Models via Bridge-Block Decomposition,' accepted in Neural Information Processing Systems (NeurIPS), New Orleans, LA, USA, Dec. 2023.
+[2] X. Wang, J. Ying, and D. P. Palomar, "Learning Large-Scale MTP2 Gaussian Graphical Models via Bridge-Block Decomposition," Neural Information Processing Systems (NeurIPS), New Orleans, LA, USA, Dec. 2023.
 
 
 
