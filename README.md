@@ -13,13 +13,11 @@ $$
 
 The codes contain following procedures.
 
-(1) Generating the data.
+(1) Computing thresholded graph and bridge-block decomposition.
 
-(2) Computing thresholded graph and bridge-block decomposition.
+(2) Solving sub-problems individually using FPN solver [1].
 
-(3) Solving sub-problems individually using FPN solver [1].
-
-(4) Obtaining optimal solution using methods in [2].
+(3) Obtaining optimal solution using methods in [2].
 
 The bridge-block decomposition is designed to reduce the computational and memory costs of existing algorithms like FPN, especially in cases involving large-scale data. You may consider using the FPN solver only when there are no significant computational and memory demands.
 
